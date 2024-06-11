@@ -1,4 +1,5 @@
-#Metacrafters
+**Metacrafters**
+
 In this solidity smart contract, I showcase the importance of function like require, assert and revert. 
 Require first check the condition before any transaction is made. 
 Assert is like a safety mechanism that holds the condition that always need to be true.

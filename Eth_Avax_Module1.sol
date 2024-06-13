@@ -79,6 +79,7 @@ contract IronManSuitDevelopment {
 
     function emergencyShutdown() public onlyTonyStark {
         // In case of emergency, Tony Stark can shut down the contract and withdraw remaining funds
+        assert(msg.sender == TonyStark); 
         payable(TonyStark).transfer(address(this).balance);
     }
 }

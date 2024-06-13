@@ -1,9 +1,9 @@
-**Metacrafters**
+In this Smart Contract, I chooses the theme of MCU ( where Tony Stark wants fund for devices development ) and give the extra functionality that every avengers should give the proposal and also give votes to a particular proposal.
 
-In this solidity smart contract, I showcase the importance of function like require, assert and revert. 
-Require first check the condition before any transaction is made. 
-Assert is like a safety mechanism that holds the condition that always need to be true.
-Revert is like a undo button if in any part of our contract we want to revert the transaction after a particular condition is met then we will revert it.
+Steps to test the Contract:
+1. Before development make the address array to store avengers address.
+2. Then deploy the contract while choosing the Tony stark address.
+3. Now we choose any account from the avengers and give the proposal and then give the vote.
+4. Then change the address to the second avengers either give proposal or vote for a particular proposal.
+5. Now again move to Tony stark address and final the one proposal with maximum no. of votes.
 
-When I deploy this smart contract, as per the require condition **msg.value==amount** so, the amount we put in deposit section same amount we have to put in value section.
-then we see the balance fom balance function, withdraw the ethers from withdraw function. and know the owner address by getOwner function.
